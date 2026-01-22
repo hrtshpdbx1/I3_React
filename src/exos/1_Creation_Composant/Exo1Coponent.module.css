@@ -1,0 +1,13 @@
+/* Module CSS Pour utiliser les modules CSS,
+il est nécessaire de ● Respecter la convention « [name].module.css » pour les noms de fichier. ● Les règles CSS doivent être composées d’un sélecteur de type classe. ● D’importer le fichier à l’aide de « import … from ‘./…’ » ● D’utiliser en JSX l'attribut « className » */
+
+/* L'avantage de cette méthode est que chaque nom de classe présent dans le fichier CSS
+ sera automatiquement modifié pour éviter des conflits. */
+
+.monstyle {
+    color:black;
+        font-weight: bold;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
