@@ -1,0 +1,9 @@
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    align-items: stretch;
+        /* toutes les cards prennent la hauteur de la plus haute */
+}
