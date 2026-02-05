@@ -1,0 +1,132 @@
+body {
+    /* background-image: url(https://images.squarespace-cdn.com/content/v1/54fb5e8de4b07795ac9ff693/1707052190221-MA2H9OQ4YSWNPSWU2AU0/Sourdough%2BSophia%2Brebrand%2Blisa%2Bmaltby%2Bpattern%2Bdesigner.jpg?format=2500w); */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mainContainer {
+    background-color: white;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: saddlebrown;
+    gap: 3rem;
+
+}
+
+.formContainer {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    bottom: 1rem;
+    border: 1px solid #e5e7eb;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    width: 100vw;
+
+}
+
+.enfant {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    border: saddlebrown 1px solid;
+
+
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.isUrgent {
+    color: red;
+    border: red solid 4px;
+}
+
+.isDone {
+    background-color: lightgray;
+    color: grey;
+    text-decoration: line-through;
+    opacity: 0.6;
+    border: gray 1px solid;
+
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.filterContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+
+    button {
+        padding: 0.6rem 1.2rem;
+        border-radius: 2rem;
+        border: none;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    button:active {
+        transform: translateY(0);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    button:nth-of-type(1) {
+        background-color: #e74c3c;
+
+    }
+
+    button:nth-of-type(2) {
+        background-color: #f39c12;
+    }
+
+    button:nth-of-type(3) {
+        background-color: #27ae60;
+
+    }
+}

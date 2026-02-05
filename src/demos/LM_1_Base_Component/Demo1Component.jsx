@@ -19,6 +19,8 @@ export const Demo1Component = (props) => {
     return (
         <>
         <p className={style['grey-text']}>Bienvenue au cours de {name} qui est du {type}</p>
+
+        <img src="" alt="" srcset="" />
        
         {/* Utilisation du css classique */}
         <p className="grey-text">Difficulté : {difficulty}/5</p>

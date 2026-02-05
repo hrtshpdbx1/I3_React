@@ -1,0 +1,21 @@
+Exercice 2 – Mise en pratique affichage conditionnel  
+ 
+✔ Créer un composant qui sert à afficher un produit @done(26-01-23 15:16)
+ 
+✔ Un produit possède les valeurs suivantes : @done(26-01-23 15:17)
+    ✔ isAvailable (booléen) pour savoir si on le vend toujours ou non @done(26-01-23 15:17)
+    ✔ name (texte) son nom @done(26-01-23 15:17)
+    ✔ image (texte -> lien) @done(26-01-23 15:17)
+    ✔ description (texte – pas obligatoire) @done(26-01-23 15:17)
+    ✔ price (number) @done(26-01-23 15:17)
+    ✔ promoPrice (number mais peut être null si le produit n’est pas en promo) @done(26-01-23 15:17)
+ 
+ 
+✔ Si le produit n’est plus vendu, affichez-le @done(26-01-23 15:42)
+ 
+
+✔ Sinon, affichez les infos du produit : @done(26-01-23 15:42)
+    ✔ si le produit possède une description, on l’affiche dans un <p> par exemple sinon, on affiche rien @done(26-01-23 15:42)
+    ✔ si le produit possède un promoPrice, affichez le promoPrice sinon afficher le price tout court @done(26-01-23 15:42)
+    ✔ si le produit possède un promoPrice, affichez la card du produit un peu différemment (le contour en rouge, jsp, faites ce que vous voulez) @done(26-01-23 15:42)
+ 

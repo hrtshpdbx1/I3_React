@@ -1,0 +1,13 @@
+.gros {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color : tomato;
+    margin: 0;
+}
+
+.petit {
+    font-size: 0.85rem;
+    color : darkgreen;
+    margin: 0;
+
+}

@@ -1,0 +1,27 @@
+PARENT 
+✔ créer un formulaire pour ajouter une nouvelle tâche à effectuer @done(26-02-03 13:52)
+
+✔ CSS basique (pour urgent en rouge, terminée en gris) @done(26-02-04 09:37)
+✔ Afficher les taches avec une map @done(26-02-04 09:37)
+
+✔ Créer les fonctionnalités ajouterTache, supprimerTacher, completerTacher @done(26-02-04 09:37)
+
+ENFANT
+Les tâches se trouverons dans l'enfant
+✔ ajouter quelques tâche de base (pour le test) @done(26-02-03 13:52)
+Une tâche contient les informations suivantes :
+○ Un nom ( Obligatoire ) et une description ( Optionnel )
+○ Une priorité ( Basse / Normal / Urgent )
+○ Une complétion ( Une valeur booléen )
+
+ENSUITE
+✔  Dans enfant, ajoute des évenements 'onComplete', @done(26-02-03 15:27)
+✔ Dans enfant, ajoute des évenements 'onDelete' @done(26-02-03 15:27)
+☐ Ajouter une validation au formulaire
+✔ Ajouter couleur aux taches (urgente en rouge, terminée en gris) @done(26-02-04 09:38)
+☐ On ne peut pas archiver une tache urgente
+BONUS 
+☐ Ajouter des filtres à la liste 
+○ En cours
+○ Urgentes
+○ Terminée

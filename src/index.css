@@ -1,4 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#root {
+    width: 90%;
+    margin: auto;
+}
+
 .grey-text {
-    color : rgb(105, 125, 154);
+    color: rgb(105, 125, 154);
     font-weight: lighter;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+
+button {
+    height: fit-content;
+    width: auto;
 }

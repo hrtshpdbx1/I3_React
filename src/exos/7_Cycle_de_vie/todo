@@ -1,0 +1,24 @@
+  ✔ Créer un composant parent Projet @done(26-02-05 11:39)
+✔ Créer un composant enfant Compteur qui reçoit dans ces props un nom @done(26-02-05 11:39)
+Dans le composant Projet, affichez 2 composants Compteur avec chacun un nom différent.
+✔ Afficher deux composantes avec des noms différents @done(26-02-05 11:39)
+ À côté de chaque compteur, il faut un bouton pour le cacher ou non.
+✔ Ajouter des boutons @done(26-02-05 11:39)
+☐ Créer une fonction cacher/apparaitres
+
+Dans le composant Compteur il vous faut :  
+Une variable pour compter (state) 
+Un bouton pour diminuer le compteur de 1, un bouton pour augmenter le compteur de 1.
+☐ Créer un state compter, setCompter
+☐ Bouton + et -
+
+Grâce au useEffect : 
+☐ Créer un useEffect dans le compteur, avec comme param : une fonction qui sauvegarde son état actuel dans le localStorage + les dépendances qui autorisent le useEffect à déclencher. 
+☐ Créer un useEffect dans le compteur, avec comme param : une fonction cherche son ancien état dans le localStorage + dépendances (ici pas un tableau vide du coup)
+// Si tableau vide, se lancera a chaque fois
+// Tableau rempli [prop] : L'effet se relance uniquement si la variable prop change.
+
+
+Quand le compteur est modifié, on va sauvegarder son état actuel dans le localStorage. 
+Quand le composant apparait à l’écran, on va chercher son ancien état dans le localStorage pour remplir le compteur. 
+(Indice : Vous pouvez mettre autant de useEffect que vous voulez dans un composant, chacun avec son tableau de dépendance différent 😉
