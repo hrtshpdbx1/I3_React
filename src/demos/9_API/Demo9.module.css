@@ -1,0 +1,55 @@
+.container {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 2rem;
+  
+}
+
+.list,
+.pkm {
+
+    width: 30%;
+    aspect-ratio: 3/4;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    ul {
+        height: 70%;
+        list-style: none;
+    }
+
+
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90%;
+
+    button {
+        font-size: 1.5 rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 1rem;
+        border: none;
+        padding: 0.5rem 1rem;
+        background-color: lightgrey;
+    }
+}

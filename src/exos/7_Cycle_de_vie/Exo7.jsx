@@ -7,6 +7,7 @@ import { Compteur } from './Compteur';
 export const Exo7 = () => {
 
     const [birds, setBirds] = useState([
+        // * --> useState pour les variables qui seront amenée à changer
         {
             id: 1,
             name: 'Pinçon',
@@ -41,27 +42,42 @@ export const Exo7 = () => {
             <h2> Comptage d'oiseaux au Parc de Forest 🌳🧮</h2>
 
             <p>Qu'avez vu aujourd'hui ?  :</p>
+              <div className={style.containerCompteur}> 
             {
                 birds.map(bird => (
-                    <div key={bird.id}>
+                    <div className={style.containerJeSaisPlus} key={bird.id}> 
                         {bird.visibility && <Compteur bird={bird} />}
                         {/* same as :  */}
                         {/* {bird.visibility === true && <Compteur bird={bird} />} */}
 
-                       
-                        <label className={style.switch}>
-                            <input onClick={() => { hideBird(bird.id) }}type="checkbox"/>
+                        <div className={style.containerToggle}> 
+                            <div className={bird.visibility === true ?
+                                style.toggleShow :
+                                style.toggleHide }>
+                            </div>
+                            <div> 
+                            <label className={style.switch}>
+                                <input onClick={() => { hideBird(bird.id) }} type="checkbox" />
+                            
                                 <span className={style.slider}>
 
                                 </span>
-                        </label>
+                               
+                            </label>
+                            </div>
+                            </div>
+                       </div>
+                       
 
-                        < button onClick={() => { hideBird(bird.id) }}> Cacher ce compteur </button>
-                    </div>
+                   
+                 
                 )
                 )
             }
         </div>
+        </div>
     )
 
 }
+
+//* * La key doit toujours est sur l'élement le plus a l'extérieur, donc il a été mis sur la div enveloppante et non la map comme dans les exo précédents

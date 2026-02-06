@@ -1,5 +1,7 @@
+
+
 .parent {
-    background-color: bisque;
+    background-color: rgb(240, 238, 235);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +25,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: rgb(85, 189, 111);
     border-radius: 15px;
     padding: 2rem;
     gap: 1rem;
@@ -55,6 +57,7 @@
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
+    border-radius: 34px;
 }
 
 .slider:before {
@@ -64,19 +67,19 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
-
+    background-color: rgb(234, 241, 235);
+border-radius: 50%;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.158);
 }
 
 input:focus+.slider {
 
-    background-color: #2196F3;
+    background-color: #ccc;
 }
 
 input:checked+.slider:before {
@@ -92,4 +95,38 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.containerCompteur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.containerToggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerJeSaisPlus {
+display: flex;
+width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.toggleShow:before{
+
+ content : '🙈'
+}
+
+.toggleHide:before {
+
+    content: '👀'
 }

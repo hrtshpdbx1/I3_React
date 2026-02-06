@@ -9,6 +9,7 @@ import { Demo6bis } from './demos/6_Les_Formulaires/Demo6bis'
 import { Demo6Lib } from './demos/6_Les_Formulaires/Demo6Lib'
 import { Demo7 } from './demos/7_Interaction/Demo7'
 import { Lavie } from './demos/8_Cycle_de_vie/LaVie'
+import { Demo9 } from './demos/9_API/Demo9'
 
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
@@ -21,7 +22,7 @@ function App() {
 
   return (
     <>
-      <p>{new Date().toLocaleDateString('fr')}</p>
+      {/* <p>{new Date().toLocaleDateString('fr')}</p> */}
 
       {/** ------- DEMO 1 --------------- */}
       {/* <p>{ new Date().toLocaleDateString('fr') }</p> */}
@@ -125,7 +126,8 @@ function App() {
       <Demo7/> */}
       {/* <Exo6/> */}
       {/* <Lavie/>  */}
-      <Exo7 />
+      {/* <Exo7 /> */}
+      < Demo9/>
       </>
 
       
