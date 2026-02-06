@@ -1,0 +1,25 @@
+Exercice 3 - Collection 
+Afficher une liste de films (ou livre au choix)
+
+
+☐ Créer un composant dans lequel il y aura un tableau
+Un film sera composé de :  
+- un id  
+- un titre (string) 
+- host (string) 
+- une année (number) 
+- une affiche (string) 
+- une notation sur 5 (number) (ex: si 4, sera noté 4 sur 5) 
+
+
+
+☐ Pour chaque film, afficher un composant qui permet d’afficher un Film. (ex : FilmCard) qui affichera  
+- l’affiche 
+- le titre du film 
+- le·a réalisateur·ice 
+- l’année 
+- un cœur (ou étoile ou ce que vous voulez) pour chaque point de note. (ex, si le film à 4 en notation, on affichera 4 cœurs pleins et 1 cœur vide par exemple) 
+ 
+Si le film a une note de 5/5, l’afficher en coup de cœur (exemple, contour rouge avec un gros cœur en haut à droite) 
+ 
+
